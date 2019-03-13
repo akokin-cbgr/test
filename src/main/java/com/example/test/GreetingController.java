@@ -20,8 +20,8 @@ public class GreetingController {
   }
 
   @GetMapping
-  public String main(Map<String, Object> model){
-    model.put("some", "test" );
+  public String main(Map<String, Object> model) {
+    model.put("some", "test");
     return "main";
   }
 
